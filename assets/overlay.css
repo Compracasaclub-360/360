@@ -1,0 +1,182 @@
+/* ============================================================
+   COMPRA CASA CLUB — Overlay de marca para tours Marzipano
+   Archivo compartido: NO editar por propiedad.
+   ============================================================ */
+
+:root {
+  --ccc-navy: #10233f;
+  --ccc-navy-soft: rgba(16, 35, 63, 0.82);
+  --ccc-blue: #4fa8e8;
+  --ccc-blue-glow: rgba(79, 168, 232, 0.55);
+  --ccc-whatsapp: #25d366;
+  --ccc-whatsapp-dark: #1ea952;
+}
+
+/* Contenedor raíz: no bloquea clicks del visor, solo sus hijos interactivos los recuperan */
+#ccc-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  pointer-events: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Esquinas estilo HUD ---------- */
+.ccc-corner {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.ccc-corner-bl {
+  left: 14px;
+  bottom: 14px;
+  border-left: 3px solid var(--ccc-blue);
+  border-bottom: 3px solid var(--ccc-blue);
+  filter: drop-shadow(0 0 4px var(--ccc-blue-glow));
+}
+
+.ccc-corner-br {
+  right: 14px;
+  bottom: 14px;
+  border-right: 3px solid var(--ccc-blue);
+  border-bottom: 3px solid var(--ccc-blue);
+  filter: drop-shadow(0 0 4px var(--ccc-blue-glow));
+}
+
+.mobile .ccc-corner {
+  width: 26px;
+  height: 26px;
+}
+
+/* ---------- Logo (abajo-izquierda) ---------- */
+.ccc-brand {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px 8px 8px;
+  background: var(--ccc-navy-soft);
+  border: 1px solid rgba(79, 168, 232, 0.35);
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  pointer-events: auto;
+  text-decoration: none;
+  max-width: 70vw;
+}
+
+.ccc-brand img {
+  height: 34px;
+  width: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.ccc-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.ccc-brand-name {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.ccc-brand-property {
+  color: var(--ccc-blue);
+  font-size: 11px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 46vw;
+}
+
+.mobile .ccc-brand {
+  left: 16px;
+  bottom: 16px;
+  padding: 6px 10px 6px 6px;
+}
+
+.mobile .ccc-brand img {
+  height: 28px;
+}
+
+.mobile .ccc-brand-name {
+  font-size: 11px;
+}
+
+.mobile .ccc-brand-property {
+  font-size: 10px;
+  max-width: 38vw;
+}
+
+/* ---------- Botón flotante de WhatsApp (abajo-derecha) ---------- */
+.ccc-whatsapp {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--ccc-whatsapp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(37, 211, 102, 0.6);
+  animation: ccc-pulse 2.4s ease-out infinite;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.ccc-whatsapp:hover,
+.ccc-whatsapp:active {
+  background: var(--ccc-whatsapp-dark);
+  transform: scale(1.06);
+}
+
+.ccc-whatsapp svg {
+  width: 28px;
+  height: 28px;
+  fill: #fff;
+}
+
+.mobile .ccc-whatsapp {
+  right: 16px;
+  bottom: 16px;
+  width: 50px;
+  height: 50px;
+}
+
+.mobile .ccc-whatsapp svg {
+  width: 26px;
+  height: 26px;
+}
+
+@keyframes ccc-pulse {
+  0% {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  70% {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* En pantallas muy angostas, evita que el logo empuje al botón de WhatsApp */
+@media (max-width: 380px) {
+  .ccc-brand-property {
+    display: none;
+  }
+}
