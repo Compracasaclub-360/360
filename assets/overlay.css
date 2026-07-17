@@ -60,13 +60,13 @@
   align-items: center;
   gap: 10px;
   padding: 8px 14px 8px 8px;
-  background: var(--ccc-navy-soft);
-  border: 1px solid rgba(79, 168, 232, 0.35);
+  background: rgba(238, 240, 243, 0.92);
+  border: 1px solid rgba(16, 35, 63, 0.12);
   border-radius: 10px;
   backdrop-filter: blur(2px);
-  pointer-events: auto;
-  text-decoration: none;
+  pointer-events: none;
   max-width: 70vw;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .ccc-brand img {
@@ -83,7 +83,7 @@
 }
 
 .ccc-brand-name {
-  color: #fff;
+  color: var(--ccc-navy);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.3px;
@@ -91,7 +91,7 @@
 }
 
 .ccc-brand-property {
-  color: var(--ccc-blue);
+  color: #3d5a6c;
   font-size: 11px;
   font-weight: 400;
   white-space: nowrap;
