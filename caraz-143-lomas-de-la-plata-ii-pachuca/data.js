@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-frente",
-      "name": "Frente",
+      "id": "0-fachada",
+      "name": "Fachada",
       "levels": [
         {
           "tileSize": 256,
@@ -26,50 +26,56 @@ var APP_DATA = {
           "size": 4096
         }
       ],
-      "faceSize": 3840,
+      "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -0.09784818555764119,
-        "pitch": 0.01206867102272291,
+        "yaw": -0.8397933325123983,
+        "pitch": -0.15205899510804066,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -0.001188293300184995,
-          "pitch": 0.12321885106399932,
+          "yaw": -0.8874709188298056,
+          "pitch": -0.008420550036738916,
           "rotation": 0,
-          "target": "1-sala-1"
+          "target": "2-sala---pb"
         },
         {
-          "yaw": 0.053420485749484214,
-          "pitch": -0.2688819430439384,
+          "yaw": -1.156299364199615,
+          "pitch": -0.014428373409209883,
           "rotation": 0,
-          "target": "12-recmara-1-"
+          "target": "1-estacionamiento"
         },
         {
-          "yaw": -0.3650840911566604,
-          "pitch": -0.21619158615570555,
+          "yaw": -1.164204229928604,
+          "pitch": -0.7710764126463392,
           "rotation": 0,
-          "target": "10-primer-piso"
+          "target": "17-amenidades---men"
         },
         {
-          "yaw": -1.6709682213920694,
-          "pitch": -0.051046253888042514,
+          "yaw": -0.6953317878028216,
+          "pitch": -0.5748653803736303,
           "rotation": 0,
-          "target": "16-amenidades--gimnasio-al-aire-libre"
+          "target": "12-habitacin-2---1er-piso"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.523701484057053,
-          "pitch": -0.07353388904979496,
-          "title": "Amenidades",
-          "text": "Text"
+          "yaw": -1.1351331723840392,
+          "pitch": -0.6261073006626923,
+          "title": "ir a vista aérea&nbsp;",
+          "text": "Mirar arriba!!!<br><br>Aquí puedes ver el conjunto residencial desde las alturas y el menu de amenidades"
+        },
+        {
+          "yaw": -0.8960138311178483,
+          "pitch": 0.2957052458316429,
+          "title": "Bienvenidos",
+          "text": "<p class=\"isSelectedEnd\">Puedes rotar la imagen para apreciar todos los detalles del espacio.<br>También encontrarás botones interactivos que te llevarán a diferentes áreas de la propiedad.<br><br></p><p>📍 Además, puedes acceder directamente a cada espacio desde el menú ubicado en la esquina superior izquierda.</p>"
         }
       ]
     },
     {
-      "id": "1-sala-1",
-      "name": "Sala 1",
+      "id": "1-estacionamiento",
+      "name": "Estacionamiento",
       "levels": [
         {
           "tileSize": 256,
@@ -95,66 +101,132 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 2.4308528765668864,
-        "pitch": 0.07662490243447095,
-        "fov": 1.198959155686846
+        "yaw": 0.0486295047605978,
+        "pitch": -0.04188809755230416,
+        "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -1.014849220565658,
-          "pitch": -0.035919599882722864,
+          "yaw": 0.15731844085591362,
+          "pitch": -0.08341831312347381,
           "rotation": 0,
-          "target": "0-frente"
+          "target": "2-sala---pb"
         },
         {
-          "yaw": 1.7658446601148663,
-          "pitch": -0.045442934311221705,
+          "yaw": 1.5052384288933647,
+          "pitch": -0.009974829249227213,
           "rotation": 0,
-          "target": "10-primer-piso"
+          "target": "0-fachada"
         },
         {
-          "yaw": 2.50972112672065,
-          "pitch": -0.028568210451609843,
+          "yaw": 2.0217107525601694,
+          "pitch": -0.6549493257273085,
           "rotation": 0,
-          "target": "8-patio-trasero"
+          "target": "17-amenidades---men"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-sala---pb",
+      "name": "Sala - PB",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 2.106655378697689,
-          "pitch": -0.05989725543892632,
-          "rotation": 0,
-          "target": "6-estudio"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": 2.9383558209054925,
-          "pitch": 0.39476490986061563,
-          "rotation": 0,
-          "target": "2-sala-2"
+          "tileSize": 512,
+          "size": 1024
         },
         {
-          "yaw": 2.7327347311316608,
-          "pitch": 0.2036443676826707,
-          "rotation": 0,
-          "target": "3-rea-de-cocina"
+          "tileSize": 512,
+          "size": 2048
         },
         {
-          "yaw": -1.264161281719339,
-          "pitch": -0.0396226680233589,
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": 0.510522861841471,
+        "pitch": -0.008454523550673443,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.0996726523364408,
+          "pitch": -0.04709471230244944,
           "rotation": 0,
-          "target": "16-amenidades--gimnasio-al-aire-libre"
+          "target": "7-habitacin-1---pb"
+        },
+        {
+          "yaw": 0.9998174126511667,
+          "pitch": 0.2366723971799427,
+          "rotation": 0,
+          "target": "5-pasillo----lavabo-pb"
+        },
+        {
+          "yaw": 0.7406766510510678,
+          "pitch": -0.07852361720737555,
+          "rotation": 0,
+          "target": "11-primer-piso"
+        },
+        {
+          "yaw": -0.9352490380008902,
+          "pitch": -0.04936087835374359,
+          "rotation": 0,
+          "target": "0-fachada"
+        },
+        {
+          "yaw": -0.5257851283434221,
+          "pitch": -0.07126186069329776,
+          "rotation": 0,
+          "target": "1-estacionamiento"
+        },
+        {
+          "yaw": 1.4979517178304729,
+          "pitch": 0.23994483692229096,
+          "rotation": 0,
+          "target": "4-rea-de-cocina---pb"
+        },
+        {
+          "yaw": 1.326672561426994,
+          "pitch": -0.052796552687849996,
+          "rotation": 0,
+          "target": "8-patio---excedente-"
+        },
+        {
+          "yaw": 1.5079090587392017,
+          "pitch": 0.5608332134701008,
+          "rotation": 0,
+          "target": "3-sala-comedor---pb"
+        },
+        {
+          "yaw": -1.3552611487816844,
+          "pitch": -0.6081434826795018,
+          "rotation": 0,
+          "target": "17-amenidades---men"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.2711749949865592,
-          "pitch": 0.09062527933035369,
-          "title": "Amenidades",
-          "text": "Text"
+          "yaw": -1.1335783914015725,
+          "pitch": -0.5989828859108055,
+          "title": "Amenidades - menú",
+          "text": "<br>"
         }
       ]
     },
     {
-      "id": "2-sala-2",
-      "name": "Sala 2",
+      "id": "3-sala-comedor---pb",
+      "name": "Sala comedor - PB",
       "levels": [
         {
           "tileSize": 256,
@@ -180,65 +252,78 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 1.6165287987191697,
-        "pitch": 0.08998594944598715,
+        "yaw": -1.0101369170401675,
+        "pitch": 0.01799074937990497,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -0.6645247198232909,
-          "pitch": 0.021443240027377186,
+          "yaw": -1.385573801606574,
+          "pitch": -0.23099563107549237,
           "rotation": 0,
-          "target": "0-frente"
+          "target": "11-primer-piso"
         },
         {
-          "yaw": -0.966698227361988,
-          "pitch": 0.42366533768291603,
+          "yaw": -0.8598468609246765,
+          "pitch": -0.01964513418524838,
           "rotation": 0,
-          "target": "1-sala-1"
+          "target": "6-bao-1---pb"
         },
         {
-          "yaw": 0.8211057968500839,
-          "pitch": -0.08678445359702458,
+          "yaw": -0.651163269779012,
+          "pitch": -0.005719381331518392,
           "rotation": 0,
-          "target": "10-primer-piso"
+          "target": "7-habitacin-1---pb"
         },
         {
-          "yaw": 1.7686265145856126,
-          "pitch": 0.046037630742572944,
+          "yaw": -0.8148798814853073,
+          "pitch": 0.40287045804311816,
           "rotation": 0,
-          "target": "6-estudio"
+          "target": "5-pasillo----lavabo-pb"
         },
         {
-          "yaw": 1.5324333966097665,
-          "pitch": -0.00875185126306377,
+          "yaw": -2.16483213686989,
+          "pitch": 0.006066864449959297,
           "rotation": 0,
-          "target": "5-bao-1"
+          "target": "0-fachada"
         },
         {
-          "yaw": 1.649409134305393,
-          "pitch": 0.4810838761783174,
+          "yaw": -2.5943542859490947,
+          "pitch": 0.37188916308568487,
           "rotation": 0,
-          "target": "4-lavabo-1"
+          "target": "2-sala---pb"
         },
         {
-          "yaw": 2.5583542535292043,
-          "pitch": -0.01319616551967151,
+          "yaw": 0.1638380686176646,
+          "pitch": -0.05531285627784399,
           "rotation": 0,
-          "target": "8-patio-trasero"
+          "target": "8-patio---excedente-"
         },
         {
-          "yaw": 2.9405005470432357,
-          "pitch": 0.3555046515457736,
+          "yaw": 0.4948142296439393,
+          "pitch": 0.47461887436192995,
           "rotation": 0,
-          "target": "3-rea-de-cocina"
+          "target": "4-rea-de-cocina---pb"
+        },
+        {
+          "yaw": -2.5632766813472934,
+          "pitch": -0.1403643826405201,
+          "rotation": 0,
+          "target": "17-amenidades---men"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -2.491998586213592,
+          "pitch": -0.14041284364007822,
+          "title": "Amenidades",
+          "text": "<br>"
+        }
+      ]
     },
     {
-      "id": "3-rea-de-cocina",
-      "name": "Área de cocina",
+      "id": "4-rea-de-cocina---pb",
+      "name": "Área de cocina - PB",
       "levels": [
         {
           "tileSize": 256,
@@ -264,77 +349,77 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 0.41479159004401644,
-        "pitch": 0.09405679122827237,
+        "yaw": -1.786300277171458,
+        "pitch": 0.008725461075815844,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -0.4332879486878749,
-          "pitch": -0.02609335284347125,
+          "yaw": -0.16407526301330222,
+          "pitch": -0.015407124142589268,
           "rotation": 0,
-          "target": "0-frente"
+          "target": "8-patio---excedente-"
         },
         {
-          "yaw": -0.5398154925026226,
-          "pitch": 0.20735081991258042,
+          "yaw": -0.5247012531061408,
+          "pitch": -0.0678931700425931,
           "rotation": 0,
-          "target": "1-sala-1"
+          "target": "9-ampliacin"
         },
         {
-          "yaw": -0.8175657374343821,
-          "pitch": 0.45637294077975277,
+          "yaw": -1.9603382828195137,
+          "pitch": 0.32822597983270363,
           "rotation": 0,
-          "target": "2-sala-2"
+          "target": "5-pasillo----lavabo-pb"
         },
         {
-          "yaw": 0.14904140490039985,
-          "pitch": -0.12120491836591185,
+          "yaw": -2.2492179957923533,
+          "pitch": -0.031345491199807896,
           "rotation": 0,
-          "target": "10-primer-piso"
+          "target": "11-primer-piso"
         },
         {
-          "yaw": 0.5243958545138554,
-          "pitch": 0.0461529008424435,
+          "yaw": -2.543305187264224,
+          "pitch": -0.01031391514880653,
           "rotation": 0,
-          "target": "4-lavabo-1"
+          "target": "0-fachada"
         },
         {
-          "yaw": 0.7476855946578596,
-          "pitch": 0.0051109133394255934,
+          "yaw": -2.8251011851089203,
+          "pitch": 0.4670677099918912,
           "rotation": 0,
-          "target": "5-bao-1"
+          "target": "3-sala-comedor---pb"
         },
         {
-          "yaw": 1.317590998718046,
-          "pitch": 0.04454152654930965,
+          "yaw": -2.814786032491721,
+          "pitch": 0.23148501984976733,
           "rotation": 0,
-          "target": "6-estudio"
+          "target": "2-sala---pb"
         },
         {
-          "yaw": 2.441334303545622,
-          "pitch": 0.0507835217216801,
+          "yaw": -1.2720191722052974,
+          "pitch": -0.0654171678594615,
           "rotation": 0,
-          "target": "7-ampliacin"
+          "target": "7-habitacin-1---pb"
         },
         {
-          "yaw": 2.7703880260727693,
-          "pitch": 0.0174824761377117,
+          "yaw": -1.9057124173667646,
+          "pitch": -0.05106243311813863,
           "rotation": 0,
-          "target": "8-patio-trasero"
+          "target": "6-bao-1---pb"
         },
         {
-          "yaw": 2.7771038627359026,
-          "pitch": 0.2409538119225516,
+          "yaw": -2.799052979736093,
+          "pitch": -0.09326435598649496,
           "rotation": 0,
-          "target": "9-jacuzzi"
+          "target": "17-amenidades---men"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-lavabo-1",
-      "name": "Lavabo 1",
+      "id": "5-pasillo----lavabo-pb",
+      "name": "Pasillo -  lavabo PB",
       "levels": [
         {
           "tileSize": 256,
@@ -360,53 +445,47 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 1.3089937627470576,
-        "pitch": 0.145402321356217,
+        "yaw": -0.91646240065635,
+        "pitch": 0.18103006534087918,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": 1.7920992343635005,
-          "pitch": 0.10659488097910597,
+          "yaw": 0.994644607859442,
+          "pitch": 0.062020950145207365,
           "rotation": 0,
-          "target": "5-bao-1"
+          "target": "6-bao-1---pb"
         },
         {
-          "yaw": -1.4113375474628942,
-          "pitch": 0.05360052852227071,
+          "yaw": 2.690327963676067,
+          "pitch": -0.0029441448340676857,
           "rotation": 0,
-          "target": "3-rea-de-cocina"
+          "target": "7-habitacin-1---pb"
         },
         {
-          "yaw": -0.7347588418622681,
-          "pitch": 0.03493373690214696,
+          "yaw": -2.6152062812263157,
+          "pitch": 0.33621351632258545,
           "rotation": 0,
-          "target": "2-sala-2"
+          "target": "4-rea-de-cocina---pb"
         },
         {
-          "yaw": -0.13011047146087762,
-          "pitch": 0.05695519574773655,
+          "yaw": -1.7504766494680588,
+          "pitch": 0.41567495534754784,
           "rotation": 0,
-          "target": "1-sala-1"
+          "target": "2-sala---pb"
         },
         {
-          "yaw": -3.021810433457304,
-          "pitch": 0.5573943389108891,
+          "yaw": -1.3040218784243027,
+          "pitch": 0.341192308956348,
           "rotation": 0,
-          "target": "6-estudio"
-        },
-        {
-          "yaw": -2.84237681155831,
-          "pitch": -0.06060468010693043,
-          "rotation": 0,
-          "target": "7-ampliacin"
+          "target": "2-sala---pb"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-bao-1",
-      "name": "Baño 1",
+      "id": "6-bao-1---pb",
+      "name": "Baño 1 - PB",
       "levels": [
         {
           "tileSize": 256,
@@ -432,35 +511,35 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -0.25514771258883506,
-        "pitch": 0.47853064308018034,
+        "yaw": 0.19361659650941832,
+        "pitch": 0.4284378213067761,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -0.9801327893473069,
-          "pitch": 0.022457803514370767,
+          "yaw": -0.21937851234248384,
+          "pitch": 0.758611994944232,
           "rotation": 0,
-          "target": "2-sala-2"
+          "target": "5-pasillo----lavabo-pb"
         },
         {
-          "yaw": -1.060226819488328,
-          "pitch": 0.8238426678735973,
+          "yaw": -0.3339603521148433,
+          "pitch": 0.31109070639262626,
           "rotation": 0,
-          "target": "4-lavabo-1"
+          "target": "3-sala-comedor---pb"
         },
         {
-          "yaw": -1.5386400442992034,
-          "pitch": 0.15011528108389527,
+          "yaw": -0.7671262321180947,
+          "pitch": 0.06924190429610455,
           "rotation": 0,
-          "target": "6-estudio"
+          "target": "7-habitacin-1---pb"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-estudio",
-      "name": "Estudio",
+      "id": "7-habitacin-1---pb",
+      "name": "Habitación 1 - PB",
       "levels": [
         {
           "tileSize": 256,
@@ -486,58 +565,112 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -3.0034318294347937,
-        "pitch": 0.07642431964572971,
+        "yaw": -0.1822397109967131,
+        "pitch": 0.00447744920791493,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": 1.1778242783749153,
-          "pitch": 0.0007571650799089724,
+          "yaw": 0.24474261096192862,
+          "pitch": 0.19604064616183692,
           "rotation": 0,
-          "target": "7-ampliacin"
+          "target": "3-sala-comedor---pb"
         },
         {
-          "yaw": 1.6873734991908593,
-          "pitch": -0.008667263923580748,
+          "yaw": -1.0300353185504356,
+          "pitch": 0.11758892555672773,
           "rotation": 0,
-          "target": "8-patio-trasero"
+          "target": "8-patio---excedente-"
         },
         {
-          "yaw": -2.439190687552797,
-          "pitch": -0.01118772725727979,
+          "yaw": -1.4500184103091662,
+          "pitch": 0.12552237408774758,
           "rotation": 0,
-          "target": "1-sala-1"
+          "target": "9-ampliacin"
         },
         {
-          "yaw": -2.214805831533109,
-          "pitch": 0.1482888638350346,
+          "yaw": 0.7126655981074119,
+          "pitch": 0.06091425766273417,
           "rotation": 0,
-          "target": "4-lavabo-1"
-        },
-        {
-          "yaw": -1.5313969014445377,
-          "pitch": 0.11002134091528148,
-          "rotation": 0,
-          "target": "5-bao-1"
-        },
-        {
-          "yaw": 2.5273891235056922,
-          "pitch": -0.01556592714650229,
-          "rotation": 0,
-          "target": "3-rea-de-cocina"
-        },
-        {
-          "yaw": -3.11888892637252,
-          "pitch": -0.031919058931903166,
-          "rotation": 0,
-          "target": "2-sala-2"
+          "target": "6-bao-1---pb"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-ampliacin",
+      "id": "8-patio---excedente-",
+      "name": "Patio - excedente ",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0,
+          "pitch": 0,
+          "rotation": 0,
+          "target": "9-ampliacin"
+        },
+        {
+          "yaw": 0.8609902136775354,
+          "pitch": 0.006732028472008267,
+          "rotation": 0,
+          "target": "10-jacuzzi---excedente"
+        },
+        {
+          "yaw": -1.2999525491390038,
+          "pitch": -0.06085595955882184,
+          "rotation": 0,
+          "target": "4-rea-de-cocina---pb"
+        },
+        {
+          "yaw": 0.0474599227060839,
+          "pitch": -0.6675282343040561,
+          "rotation": 0,
+          "target": "16-terraza---1er-piso"
+        },
+        {
+          "yaw": -1.5298295245760336,
+          "pitch": -1.0781958432648366,
+          "rotation": 0,
+          "target": "14-habitacin-3---1er-piso"
+        },
+        {
+          "yaw": 0.23087801619912618,
+          "pitch": -1.3083501876847663,
+          "rotation": 0,
+          "target": "17-amenidades---men"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-ampliacin",
       "name": "Ampliación",
       "levels": [
         {
@@ -564,47 +697,41 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 2.8974846017797375,
-        "pitch": -0.026733768689169324,
+        "yaw": 0.9091240663043436,
+        "pitch": -0.00253902510974946,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": 2.432716583280043,
-          "pitch": 0.0530494333541629,
+          "yaw": 0.7621238098180676,
+          "pitch": -0.0025116410380849885,
           "rotation": 0,
-          "target": "8-patio-trasero"
+          "target": "8-patio---excedente-"
         },
         {
-          "yaw": 2.994370001196928,
-          "pitch": -0.06453326697650397,
+          "yaw": 1.0863332299082717,
+          "pitch": -0.06343527900576618,
           "rotation": 0,
-          "target": "3-rea-de-cocina"
+          "target": "4-rea-de-cocina---pb"
         },
         {
-          "yaw": -2.6159712133079687,
-          "pitch": -0.06385059964766526,
+          "yaw": 1.8037931305538173,
+          "pitch": 0.013493267721042201,
           "rotation": 0,
-          "target": "6-estudio"
+          "target": "7-habitacin-1---pb"
         },
         {
-          "yaw": 1.464130111613077,
-          "pitch": 0.00016999911175830107,
+          "yaw": -0.30681999409913097,
+          "pitch": -0.06579534886172311,
           "rotation": 0,
-          "target": "9-jacuzzi"
-        },
-        {
-          "yaw": 2.9342984859556847,
-          "pitch": -0.41003475750012974,
-          "rotation": 0,
-          "target": "13-recamara-2"
+          "target": "10-jacuzzi---excedente"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-patio-trasero",
-      "name": "Patio trasero",
+      "id": "10-jacuzzi---excedente",
+      "name": "Jacuzzi - excedente",
       "levels": [
         {
           "tileSize": 256,
@@ -630,156 +757,65 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 0.8236665185052896,
-        "pitch": 0.053150926937480136,
+        "yaw": 0.3830702771772856,
+        "pitch": 0.1538755555397575,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": 1.326985447843514,
-          "pitch": 0.013395108883814899,
+          "yaw": -0.2959080035616015,
+          "pitch": -0.2700448505995059,
           "rotation": 0,
-          "target": "9-jacuzzi"
+          "target": "16-terraza---1er-piso"
         },
         {
-          "yaw": -0.07208464165790396,
-          "pitch": 0.009556407765060726,
+          "yaw": -0.5617690665357618,
+          "pitch": -0.1984946255473048,
           "rotation": 0,
-          "target": "7-ampliacin"
+          "target": "14-habitacin-3---1er-piso"
         },
         {
-          "yaw": -0.9645136579525868,
-          "pitch": -0.06276394126003204,
+          "yaw": -0.4988601621629698,
+          "pitch": -0.02185718664736669,
           "rotation": 0,
-          "target": "6-estudio"
+          "target": "4-rea-de-cocina---pb"
         },
         {
-          "yaw": -1.8521270057835881,
-          "pitch": -0.08431258695202715,
+          "yaw": -0.6215220699394184,
+          "pitch": 0.21760055890135988,
           "rotation": 0,
-          "target": "3-rea-de-cocina"
+          "target": "8-patio---excedente-"
         },
         {
-          "yaw": -1.7859049607936441,
-          "pitch": -0.6869088679595947,
+          "yaw": -0.21588828784621938,
+          "pitch": -0.000990980746058412,
           "rotation": 0,
-          "target": "13-recamara-2"
+          "target": "9-ampliacin"
         },
         {
-          "yaw": -0.4668811229250416,
-          "pitch": -0.8256491851285812,
+          "yaw": -0.4423772954566907,
+          "pitch": -0.49711768551739866,
           "rotation": 0,
-          "target": "15-terraza"
+          "target": "17-amenidades---men"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.6075146943152978,
-          "pitch": -0.003768029301923548,
-          "title": "Terreno excedente",
-          "text": "<br>"
-        },
-        {
-          "yaw": 0.11841832846227618,
-          "pitch": 0.005717496827394086,
-          "title": "Ampliación",
-          "text": "Esta ampliación no forma parte del modelo original. Actualmente permite una recámara adicional y fue proyectada para cerrarse con cancelería y funcionar como cocina abierta."
-        }
-      ]
-    },
-    {
-      "id": "9-jacuzzi",
-      "name": "Jacuzzi",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": -0.5617928218290462,
-        "pitch": 0.08480978712732501,
-        "fov": 1.20384993451692
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.2083530167119694,
-          "pitch": -0.33103774149278387,
-          "rotation": 0,
-          "target": "15-terraza"
-        },
-        {
-          "yaw": -1.4408027026518209,
-          "pitch": -0.2578185411505558,
-          "rotation": 0,
-          "target": "13-recamara-2"
-        },
-        {
-          "yaw": -1.4574486338918717,
-          "pitch": -0.05452033624980501,
-          "rotation": 0,
-          "target": "3-rea-de-cocina"
-        },
-        {
-          "yaw": -1.2357842131693424,
-          "pitch": -0.05489678058286884,
-          "rotation": 0,
-          "target": "7-ampliacin"
-        },
-        {
-          "yaw": -1.4173193517895353,
-          "pitch": 0.23350283000554484,
-          "rotation": 0,
-          "target": "8-patio-trasero"
-        },
-        {
-          "yaw": 1.5860371447597643,
-          "pitch": -0.005320416620657298,
-          "rotation": 0,
-          "target": "0-frente"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.3186395548835321,
-          "pitch": -0.02897065398585852,
-          "title": "Muro con cascada y luz led",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.7097388508928208,
-          "pitch": 0.16955481105064862,
+          "yaw": 0.6417300109209947,
+          "pitch": 0.04588520615670255,
           "title": "Jacuzzi",
-          "text": "<br>"
+          "text": "<p><strong>El jacuzzi se encuentra protegido y cubierto con otro jacuzzi para evitar posibles daños. Se encuentra instalado y funcionando correctamente.</strong></p>"
         },
         {
-          "yaw": 1.6948412416841707,
-          "pitch": 0.0003295172090265197,
-          "title": "Regresar al frente",
-          "text": "Text"
+          "yaw": 1.645196955624618,
+          "pitch": 0.0797531523607713,
+          "title": "Muro decorativo",
+          "text": "<p><strong>Este muro cuenta con un elegante acabado en piedra, acompañado de una cascada de agua e iluminación LED, creando un ambiente muy agradable en el área del jacuzzi.</strong></p>"
         }
       ]
     },
     {
-      "id": "10-primer-piso",
+      "id": "11-primer-piso",
       "name": "Primer piso",
       "levels": [
         {
@@ -806,252 +842,60 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -1.620750818408105,
-        "pitch": 0.04107593500219764,
+        "yaw": -0.47467403911098494,
+        "pitch": 0.11465237471589873,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -1.5804460067826316,
-          "pitch": 0.13684968166663225,
+          "yaw": 2.4176531540065573,
+          "pitch": 0.6221178050355967,
           "rotation": 0,
-          "target": "13-recamara-2"
+          "target": "3-sala-comedor---pb"
         },
         {
-          "yaw": -0.8795078055990011,
-          "pitch": 0.09747946985143585,
+          "yaw": 0.3420119595602422,
+          "pitch": 0.032206269679583954,
           "rotation": 0,
-          "target": "11-bao-2"
+          "target": "12-habitacin-2---1er-piso"
         },
         {
-          "yaw": -2.1948714543721266,
-          "pitch": -0.014808440814842783,
+          "yaw": -0.39461108755110175,
+          "pitch": -0.013248238843615923,
           "rotation": 0,
-          "target": "15-terraza"
+          "target": "13-bao-2---1er-piso"
         },
         {
-          "yaw": -2.469747184125257,
-          "pitch": -0.0064713354717156335,
+          "yaw": -0.8183635659261537,
+          "pitch": 0.009162483965369006,
           "rotation": 0,
-          "target": "14-sala-tv--habitacin-principal"
+          "target": "14-habitacin-3---1er-piso"
         },
         {
-          "yaw": 0.5995227198602979,
-          "pitch": 0.0442446443306963,
+          "yaw": -1.2145337650608852,
+          "pitch": 0.051048340242717316,
           "rotation": 0,
-          "target": "12-recmara-1-"
+          "target": "15-sala-de-tv---1er-piso"
         },
         {
-          "yaw": 2.5453964755098077,
-          "pitch": -0.03587098432101499,
+          "yaw": 0.6573511984405798,
+          "pitch": 0.30087983861691114,
           "rotation": 0,
-          "target": "2-sala-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-bao-2",
-      "name": "Baño 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": 0.08147254477503552,
-        "pitch": 0.5559516120876697,
-        "fov": 1.20384993451692
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.447367432025345,
-          "pitch": 0.6169542593486064,
-          "rotation": 0,
-          "target": "10-primer-piso"
-        },
-        {
-          "yaw": -2.299672361064026,
-          "pitch": -0.03962423279340577,
-          "rotation": 0,
-          "target": "14-sala-tv--habitacin-principal"
-        },
-        {
-          "yaw": -1.9599876179634155,
-          "pitch": -0.0634705373395743,
-          "rotation": 0,
-          "target": "12-recmara-1-"
-        },
-        {
-          "yaw": -2.556661134166461,
-          "pitch": -0.020284857905691567,
-          "rotation": 0,
-          "target": "2-sala-2"
-        },
-        {
-          "yaw": 2.0326136176151692,
-          "pitch": 0.07622193893431373,
-          "rotation": 0,
-          "target": "12-recmara-1-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-recmara-1-",
-      "name": "Recámara 1 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": -2.5991981229444363,
-        "pitch": 0.1043800637647383,
-        "fov": 1.20384993451692
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.0339086878826045,
-          "pitch": 0.35604109459881705,
-          "rotation": 0,
-          "target": "10-primer-piso"
-        },
-        {
-          "yaw": -3.0118627100754765,
-          "pitch": -0.011145117687142658,
-          "rotation": 0,
-          "target": "14-sala-tv--habitacin-principal"
-        },
-        {
-          "yaw": -2.2625256647827428,
-          "pitch": 0.01746704534508403,
-          "rotation": 0,
-          "target": "11-bao-2"
-        },
-        {
-          "yaw": 0.7996865653466507,
-          "pitch": -0.058735727931479076,
-          "rotation": 0,
-          "target": "0-frente"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-recamara-2",
-      "name": "Recamara 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3840,
-      "initialViewParameters": {
-        "yaw": 0.12390883579819345,
-        "pitch": 0.12660721570271782,
-        "fov": 1.20384993451692
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.0289489685968203,
-          "pitch": 0.0787958741714494,
-          "rotation": 0,
-          "target": "8-patio-trasero"
-        },
-        {
-          "yaw": 0.5466338467042622,
-          "pitch": 0.04178655997623437,
-          "rotation": 0,
-          "target": "15-terraza"
-        },
-        {
-          "yaw": -1.240247898713374,
-          "pitch": 0.16524555947273,
-          "rotation": 0,
-          "target": "10-primer-piso"
-        },
-        {
-          "yaw": -2.0607700105176203,
-          "pitch": 0.17719837840322405,
-          "rotation": 0,
-          "target": "11-bao-2"
-        },
-        {
-          "yaw": -0.3951995648732147,
-          "pitch": 0.1435100245580827,
-          "rotation": 0,
-          "target": "14-sala-tv--habitacin-principal"
+          "target": "3-sala-comedor---pb"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.03695561822630289,
-          "pitch": -0.23254062503669104,
-          "title": "Foto en reparación",
-          "text": "Text"
+          "yaw": 0.6670946501380186,
+          "pitch": 0.4025794777791134,
+          "title": "Regresar PB",
+          "text": "Regresar a Sala comedor de PB, igual puedes mirar atrás por las escaleras"
         }
       ]
     },
     {
-      "id": "14-sala-tv--habitacin-principal",
-      "name": "Sala tv / habitación principal",
+      "id": "12-habitacin-2---1er-piso",
+      "name": "habitación 2 - 1er piso",
       "levels": [
         {
           "tileSize": 256,
@@ -1077,203 +921,397 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -0.1136414995046966,
-        "pitch": -0.003017167755668737,
-        "fov": 1.20384993451692
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.6198881198308097,
-          "pitch": -0.0267268529116933,
+          "yaw": -0.8837644863799206,
+          "pitch": -0.34780405712081475,
           "rotation": 0,
-          "target": "15-terraza"
+          "target": "17-amenidades---men"
         },
         {
-          "yaw": -0.16523672775806197,
-          "pitch": 0.06565585611574853,
+          "yaw": -0.8685589206453823,
+          "pitch": 0.14126600158276226,
           "rotation": 0,
-          "target": "8-patio-trasero"
+          "target": "0-fachada"
         },
         {
-          "yaw": 0.6746408920082345,
-          "pitch": 0.054109026997767984,
+          "yaw": 0.8734968531056744,
+          "pitch": 0.2959525862353036,
           "rotation": 0,
-          "target": "13-recamara-2"
+          "target": "11-primer-piso"
         },
         {
-          "yaw": 1.5696818530231766,
-          "pitch": 0.3804811036716842,
+          "yaw": 0.4374905536995115,
+          "pitch": 0.35758146417488135,
           "rotation": 0,
-          "target": "10-primer-piso"
+          "target": "3-sala-comedor---pb"
         },
         {
-          "yaw": 1.6129559256350596,
-          "pitch": 0.07481805417363674,
+          "yaw": 1.56835326011905,
+          "pitch": 0.12374663973834643,
           "rotation": 0,
-          "target": "12-recmara-1-"
-        },
-        {
-          "yaw": 1.4250127692590198,
-          "pitch": 0.07753356700755631,
-          "rotation": 0,
-          "target": "11-bao-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-terraza",
-      "name": "Terraza",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": 0.6506466462624143,
-        "pitch": 0.025057490843256147,
-        "fov": 1.20384993451692
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.09702209363132042,
-          "pitch": -0.042039006188797856,
-          "rotation": 0,
-          "target": "13-recamara-2"
-        },
-        {
-          "yaw": 1.1721137444732914,
-          "pitch": -0.10425370176090887,
-          "rotation": 0,
-          "target": "14-sala-tv--habitacin-principal"
-        },
-        {
-          "yaw": -1.093380866835524,
-          "pitch": 1.0117851698614846,
-          "rotation": 0,
-          "target": "8-patio-trasero"
-        },
-        {
-          "yaw": -2.0767519428168413,
-          "pitch": 0.47543643943255987,
-          "rotation": 0,
-          "target": "9-jacuzzi"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-amenidades--gimnasio-al-aire-libre",
-      "name": "Amenidades / Gimnasio al aire libre",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": -0.7661245723464543,
-        "pitch": 0.03839534317669724,
-        "fov": 1.20384993451692
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7266569224968311,
-          "pitch": -0.09181324335605012,
-          "rotation": 0,
-          "target": "18-cancha"
-        },
-        {
-          "yaw": -1.1357195220369416,
-          "pitch": -0.08871319671032474,
-          "rotation": 0,
-          "target": "19-rea-de-mascotas"
-        },
-        {
-          "yaw": -0.9325573257163242,
-          "pitch": -0.0937938157961451,
-          "rotation": 0,
-          "target": "20-rea-infantil"
-        },
-        {
-          "yaw": -1.322491883843906,
-          "pitch": -0.08403742481780441,
-          "rotation": 0,
-          "target": "17-asadores"
-        },
-        {
-          "yaw": 0.008883751202032997,
-          "pitch": -0.09730664753881157,
-          "rotation": 0,
-          "target": "0-frente"
-        },
-        {
-          "yaw": 2.969322278499245,
-          "pitch": 0.00869052944208093,
-          "rotation": 0,
-          "target": "17-asadores"
-        },
-        {
-          "yaw": 2.0989787327026512,
-          "pitch": 0.00585275034900512,
-          "rotation": 0,
-          "target": "0-frente"
+          "target": "13-bao-2---1er-piso"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.10840193537798015,
-          "pitch": -0.08497277425169614,
-          "title": "Regresar a casa",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.207252864291136,
-          "pitch": 0.013984811353427773,
-          "title": "Regresar a casa",
-          "text": "Text"
+          "yaw": 0.44775201816602106,
+          "pitch": 0.4694216041319681,
+          "title": "Regresar a PB",
+          "text": "<br>"
         }
       ]
     },
     {
-      "id": "17-asadores",
+      "id": "13-bao-2---1er-piso",
+      "name": "Baño 2 - 1er piso",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": -0.10617708769588496,
+        "pitch": 0.2262875816761074,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.13689878728382965,
+          "pitch": -0.05423727860970118,
+          "rotation": 0,
+          "target": "14-habitacin-3---1er-piso"
+        },
+        {
+          "yaw": -0.8441275912891868,
+          "pitch": 0.5637138076748265,
+          "rotation": 0,
+          "target": "11-primer-piso"
+        },
+        {
+          "yaw": 1.2849139580279942,
+          "pitch": 0.13818236113752036,
+          "rotation": 0,
+          "target": "12-habitacin-2---1er-piso"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-habitacin-3---1er-piso",
+      "name": "Habitación 3 - 1er piso",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": -0.5502193094222019,
+        "pitch": 0.03922318082385701,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.5873071985161644,
+          "pitch": 0.03000225374462495,
+          "rotation": 0,
+          "target": "15-sala-de-tv---1er-piso"
+        },
+        {
+          "yaw": -1.2517787337547688,
+          "pitch": 0.06112248747702331,
+          "rotation": 0,
+          "target": "11-primer-piso"
+        },
+        {
+          "yaw": 0.3748718285906296,
+          "pitch": 0.04899779373916857,
+          "rotation": 0,
+          "target": "16-terraza---1er-piso"
+        },
+        {
+          "yaw": -0.9755071488477114,
+          "pitch": 0.3379692948885129,
+          "rotation": 0,
+          "target": "3-sala-comedor---pb"
+        },
+        {
+          "yaw": -1.9886134375458049,
+          "pitch": 0.09597811908308707,
+          "rotation": 0,
+          "target": "13-bao-2---1er-piso"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.8347976389060854,
+          "pitch": 0.3183136735642549,
+          "title": "Regresar a PB",
+          "text": "<br>"
+        }
+      ]
+    },
+    {
+      "id": "15-sala-de-tv---1er-piso",
+      "name": "Sala de tv - 1er piso",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": -0.4559369059881764,
+        "pitch": -0.015085838778411187,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.2123996493348717,
+          "pitch": 0.15520168537175927,
+          "rotation": 0,
+          "target": "16-terraza---1er-piso"
+        },
+        {
+          "yaw": -0.36919750246823924,
+          "pitch": 0.03946656889233324,
+          "rotation": 0,
+          "target": "14-habitacin-3---1er-piso"
+        },
+        {
+          "yaw": 0.5349457989220916,
+          "pitch": 0.39723925745082767,
+          "rotation": 0,
+          "target": "11-primer-piso"
+        },
+        {
+          "yaw": 1.44368620279403,
+          "pitch": 0.49404345748575906,
+          "rotation": 0,
+          "target": "3-sala-comedor---pb"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-terraza---1er-piso",
+      "name": "Terraza - 1er piso",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": 3.0367099983671206,
+        "pitch": 0.012808382818016995,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.9714038493081887,
+          "pitch": -0.024998032367916423,
+          "rotation": 0,
+          "target": "14-habitacin-3---1er-piso"
+        },
+        {
+          "yaw": -2.4533009696046832,
+          "pitch": -0.0030919935651212427,
+          "rotation": 0,
+          "target": "15-sala-de-tv---1er-piso"
+        },
+        {
+          "yaw": 2.996173552327024,
+          "pitch": -0.5529811068280672,
+          "rotation": 0,
+          "target": "17-amenidades---men"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-amenidades---men",
+      "name": "Amenidades - menú",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3000,
+      "initialViewParameters": {
+        "yaw": 0.6245711040934072,
+        "pitch": 0.6882186327879474,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.44484729389588473,
+          "pitch": 0.9578967092648369,
+          "rotation": 0,
+          "target": "18-asadores"
+        },
+        {
+          "yaw": -0.27623683396534204,
+          "pitch": 0.7310240922635103,
+          "rotation": 0,
+          "target": "19-gym-aire-libre"
+        },
+        {
+          "yaw": -0.1593919505253769,
+          "pitch": 0.5622078967158206,
+          "rotation": 0,
+          "target": "20-cancha"
+        },
+        {
+          "yaw": -0.09631886698755387,
+          "pitch": 0.4270944516334829,
+          "rotation": 0,
+          "target": "21-zona-infantil"
+        },
+        {
+          "yaw": -0.0476587663664958,
+          "pitch": 0.30217736681129104,
+          "rotation": 0,
+          "target": "22-zona-pet"
+        },
+        {
+          "yaw": 2.8274025991312355,
+          "pitch": 0.41502287271048566,
+          "rotation": 0,
+          "target": "0-fachada"
+        },
+        {
+          "yaw": 0.9304888040426214,
+          "pitch": 0.9148864104877088,
+          "rotation": 0,
+          "target": "0-fachada"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.9581117991425412,
+          "pitch": 1.0461938737301146,
+          "title": "Regresar a la casa",
+          "text": "<p><strong>Con este botón puedes regresar al inicio del recorrido, en la sección “FACHADA”. También puedes ubicar la propiedad y conocer su ubicación exacta girando la vista hacia atrás.</strong></p>"
+        },
+        {
+          "yaw": 0.3775962707444158,
+          "pitch": 0.4751368081446472,
+          "title": "Zona comercial&nbsp;",
+          "text": "Existe una zona comercial dentro del fraccionamiento"
+        },
+        {
+          "yaw": -0.0064366673808464725,
+          "pitch": 0.14110062086658282,
+          "title": "Acceso controlado",
+          "text": "<p><strong>Entrada principal y único acceso al desarrollo, con vigilancia las 24 horas y acceso controlado. Los residentes ingresan mediante TAG, mientras que las visitas deben realizar su registro correspondiente.</strong></p>"
+        },
+        {
+          "yaw": 1.4416227491928666,
+          "pitch": 0.07237437485164122,
+          "title": "Lomas de la plata 1",
+          "text": "<br>"
+        }
+      ]
+    },
+    {
+      "id": "18-asadores",
       "name": "Asadores",
       "levels": [
         {
@@ -1300,53 +1338,94 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -0.12162296403815986,
-        "pitch": 0.1816200595388473,
+        "yaw": -2.4113531830591395,
+        "pitch": -0.029075811081737513,
         "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": 0.8658057282086986,
-          "pitch": -0.04810527213727589,
+          "yaw": 3.1058769451586823,
+          "pitch": -0.2153585641372402,
           "rotation": 0,
-          "target": "0-frente"
+          "target": "17-amenidades---men"
         },
         {
-          "yaw": -1.6270576845968243,
-          "pitch": -0.026635287393892426,
+          "yaw": -1.6554315682236354,
+          "pitch": -0.08131281836900861,
           "rotation": 0,
-          "target": "20-rea-infantil"
+          "target": "19-gym-aire-libre"
         },
         {
-          "yaw": -1.456052236654486,
-          "pitch": -0.032473351260973615,
+          "yaw": 1.384276898874651,
+          "pitch": -0.08862221412239002,
           "rotation": 0,
-          "target": "19-rea-de-mascotas"
-        },
-        {
-          "yaw": -1.0860573625620482,
-          "pitch": -0.032510686254784815,
-          "rotation": 0,
-          "target": "16-amenidades--gimnasio-al-aire-libre"
-        },
-        {
-          "yaw": -1.2899935481823235,
-          "pitch": -0.04252302200407243,
-          "rotation": 0,
-          "target": "18-cancha"
+          "target": "0-fachada"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 0.7991614905657585,
-          "pitch": -0.058591971763487294,
-          "title": "Regresar a a casa",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "18-cancha",
+      "id": "19-gym-aire-libre",
+      "name": "GYM aire libre",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": -1.766495684498933,
+        "pitch": 0.021668750245357415,
+        "fov": 1.20384993451692
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1314639846546157,
+          "pitch": -0.05804357538263716,
+          "rotation": 0,
+          "target": "20-cancha"
+        },
+        {
+          "yaw": 2.9990683426588944,
+          "pitch": 0.018205112185686545,
+          "rotation": 0,
+          "target": "18-asadores"
+        },
+        {
+          "yaw": -2.3046851403412347,
+          "pitch": -0.3986976275563876,
+          "rotation": 0,
+          "target": "17-amenidades---men"
+        },
+        {
+          "yaw": 2.462584914758928,
+          "pitch": -0.09822311947772455,
+          "rotation": 0,
+          "target": "0-fachada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-cancha",
       "name": "Cancha",
       "levels": [
         {
@@ -1373,54 +1452,41 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 0.4432842578584921,
-        "pitch": -0.028070913077867132,
-        "fov": 1.20384993451692
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.7508060171699054,
-          "pitch": 0.01765145076713459,
+          "yaw": -0.38298914012215235,
+          "pitch": -0.4044023371686265,
           "rotation": 0,
-          "target": "17-asadores"
+          "target": "17-amenidades---men"
         },
         {
-          "yaw": -1.60105932890899,
-          "pitch": 0.011312161244699581,
+          "yaw": 0.9154892597369209,
+          "pitch": -0.08921298874343186,
           "rotation": 0,
-          "target": "16-amenidades--gimnasio-al-aire-libre"
+          "target": "21-zona-infantil"
         },
         {
-          "yaw": -2.032039837638532,
-          "pitch": 0.017700294240412973,
+          "yaw": -1.4886872834133804,
+          "pitch": 0.01929228073180944,
           "rotation": 0,
-          "target": "0-frente"
+          "target": "19-gym-aire-libre"
         },
         {
-          "yaw": 0.8859788236456261,
-          "pitch": -0.06599731341009729,
+          "yaw": -1.986207815282409,
+          "pitch": -0.0520813041974435,
           "rotation": 0,
-          "target": "20-rea-infantil"
-        },
-        {
-          "yaw": 1.0617804954091952,
-          "pitch": -0.06969550651627188,
-          "rotation": 0,
-          "target": "19-rea-de-mascotas"
+          "target": "0-fachada"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -2.1661705142543255,
-          "pitch": 0.009000631052803243,
-          "title": "Regresar a casa",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "19-rea-de-mascotas",
-      "name": "Área de mascotas",
+      "id": "21-zona-infantil",
+      "name": "Zona infantil",
       "levels": [
         {
           "tileSize": 256,
@@ -1446,54 +1512,48 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 0.026245630286231503,
-        "pitch": 0.08193578726850781,
-        "fov": 0.977433296984112
+        "yaw": 0.7057653476255421,
+        "pitch": 0.033099538056863054,
+        "fov": 1.20384993451692
       },
       "linkHotspots": [
         {
-          "yaw": -0.6744891173526426,
-          "pitch": 0.02885102699448794,
+          "yaw": 0.7700586747238525,
+          "pitch": -0.43469295031558275,
           "rotation": 0,
-          "target": "20-rea-infantil"
+          "target": "17-amenidades---men"
         },
         {
-          "yaw": -0.8257814420876457,
-          "pitch": 0.039635186048865734,
+          "yaw": 0.9907129841434745,
+          "pitch": 0.03837543983532754,
           "rotation": 0,
-          "target": "18-cancha"
+          "target": "20-cancha"
         },
         {
-          "yaw": -0.9743825267093555,
-          "pitch": 0.03976511432605001,
+          "yaw": 0.2677772029108674,
+          "pitch": -0.18170971807721692,
           "rotation": 0,
-          "target": "16-amenidades--gimnasio-al-aire-libre"
+          "target": "0-fachada"
         },
         {
-          "yaw": -1.1163773975336966,
-          "pitch": 0.048246735551320086,
+          "yaw": -2.2614627552026185,
+          "pitch": -0.12700019912574056,
           "rotation": 0,
-          "target": "17-asadores"
-        },
-        {
-          "yaw": -1.3004215612489993,
-          "pitch": 0.04311632242522023,
-          "rotation": 0,
-          "target": "0-frente"
+          "target": "22-zona-pet"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.2880988006765435,
-          "pitch": -0.03981486250647137,
-          "title": "Regresar a casa",
-          "text": "Text"
+          "yaw": -1.9623305033573732,
+          "pitch": -0.060647817121171954,
+          "title": "Segunda área de asadores",
+          "text": "<br>"
         }
       ]
     },
     {
-      "id": "20-rea-infantil",
-      "name": "Área infantil",
+      "id": "22-zona-pet",
+      "name": "Zona Pet",
       "levels": [
         {
           "tileSize": 256,
@@ -1519,53 +1579,34 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": 1.198204610727963,
-        "pitch": 0.007222160713981296,
-        "fov": 1.20384993451692
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.9747220598346225,
-          "pitch": 0.0104004151247441,
+          "yaw": -0.6824086392642208,
+          "pitch": -0.3485917200584723,
           "rotation": 0,
-          "target": "18-cancha"
+          "target": "17-amenidades---men"
         },
         {
-          "yaw": 1.1947608980177762,
-          "pitch": 0.014108873156871482,
+          "yaw": -0.9109938013036647,
+          "pitch": 0.053329578530750155,
           "rotation": 0,
-          "target": "16-amenidades--gimnasio-al-aire-libre"
+          "target": "21-zona-infantil"
         },
         {
-          "yaw": 1.4183938201974229,
-          "pitch": 0.0003273150635578759,
+          "yaw": -1.1783798028613361,
+          "pitch": -0.05123094569143305,
           "rotation": 0,
-          "target": "17-asadores"
-        },
-        {
-          "yaw": 0.5177150714172107,
-          "pitch": 0.03772457262971329,
-          "rotation": 0,
-          "target": "0-frente"
-        },
-        {
-          "yaw": -1.9151026639749311,
-          "pitch": -0.08362281597906396,
-          "rotation": 0,
-          "target": "19-rea-de-mascotas"
+          "target": "0-fachada"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 0.5182864946258512,
-          "pitch": -0.08780048126887152,
-          "title": "Regresar a casa",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": []
     }
   ],
-  "name": "Caraz 143, Lomas de la Plata II, Pachuca",
+  "name": "Caraz 143, Lomas de la Plata 2, Pachuca",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
